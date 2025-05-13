@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { View, Text, ScrollView, TouchableOpacity, Image } from 'react-native';
 import * as Icon from 'react-native-feather';
 import { themeColors } from '../theme';
@@ -141,3 +141,5 @@ function CartScreen({}) {
 }
 
 export default CartScreen;
+
+// AIzaSyCICUtgumQK7SETEsGEwP5gKzDSa8RO7Og

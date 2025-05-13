@@ -24,7 +24,7 @@ function Categories() {
             <View key={index} className="flex justify-center items-center mr-6">
               <TouchableOpacity
                 onPress={() => setActiveCategory(category.id)}
-                className={`p-1 rounded-full shadow bg-gray-200 ${btnClass}`}
+                className={`p-1 rounded-full border-red-400 border-solid ${btnClass}`}
               >
                 <Image
                   style={{ width: 25, height: 25 }}
